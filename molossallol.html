@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Molossal.lol</title>
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <style>
+    /* Reset */
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    body {
+      background: #000;
+      color: #eee;
+      font-family: 'Segoe UI', sans-serif;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      min-height: 100vh;
+    }
+    .panel {
+      width: 90%;
+      max-width: 600px;
+      background: #111;
+      clip-path: polygon(0 0, 100% 0, 95% 100%, 0 100%);
+      padding: 2rem;
+      box-shadow: 0 10px 20px rgba(0, 0, 0, 0.7);
+    }
+    h1 {
+      font-size: 2.5rem;
+      color: #ff00ff;
+      letter-spacing: 2px;
+    }
+    h2 {
+      font-size: 1.4rem;
+      margin: 1.5rem 0 0.5rem;
+      border-bottom: 1px solid #330033;
+      padding-bottom: 0.3rem;
+      color: #ff66ff;
+    }
+    p {
+      line-height: 1.4;
+      margin: 0.5rem 0;
+      color: #ccc;
+    }
+    .feature-list {
+      list-style: none;
+      padding: 0;
+    }
+    .feature-list li {
+      margin: 0.6rem 0;
+      padding-left: 1.4rem;
+      position: relative;
+      color: #ddd;
+    }
+    .feature-list li::before {
+      content: '➤';
+      position: absolute;
+      left: 0;
+      color: #ff00ff;
+    }
+    .btn {
+      display: inline-block;
+      margin-top: 2rem;
+      padding: 0.7rem 2rem;
+      background: #ff00ff;
+      color: #111;
+      font-weight: bold;
+      text-decoration: none;
+      clip-path: polygon(5% 0%, 95% 0%, 100% 100%, 0% 100%);
+      transition: background 0.2s;
+    }
+    .btn:hover {
+      background: #e600e6;
+    }
+  </style>
+</head>
+<body>
+  <div class="panel">
+    <h1>Molossal V2</h1>
+    <p><em>Fake it till you make it.</em> The perfect mix of OP, Ghost and Comp.</p>
+
+    <h2>Features</h2>
+    <ul class="feature-list">
+      <li>Fun And Easy To Use.</li>
+      <li>Over Powered – game-breaking modules</li>
+      <li>BreakLobby All, Crash All, SS Sound Spammer, And many more.</li>
+      <li>VR‑style GUI overlay</li>
+      <li>...</li>
+    </ul>
+
+    <a href="#" class="btn">Buy Now →</a>
+  </div>
+</body>
+</html>
