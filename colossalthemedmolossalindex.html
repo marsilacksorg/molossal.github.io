@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Colossal‑style UI</title>
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <style>
+    body {
+      margin:0;
+      background:#1b1125;
+      color:#eee;
+      font-family: 'Segoe UI', sans-serif;
+      display:flex;
+      align-items:center;
+      justify-content:center;
+      min-height:100vh;
+    }
+    .panel {
+      width:90%;
+      max-width:600px;
+      background:#291a36;
+      clip-path: polygon(0 0, 100% 0, 95% 100%, 0% 100%);
+      padding:2rem;
+      box-shadow:0 10px 20px rgba(0,0,0,0.7);
+    }
+    h1 {
+      margin:0;
+      font-size:2.5rem;
+      color:#f05a28;
+      letter-spacing:2px;
+    }
+    h2 {
+      font-size:1.5rem;
+      margin:1.5rem 0 0.5rem;
+      border-bottom:1px solid #3b2a48;
+      padding-bottom:.3rem;
+    }
+    p { line-height:1.4; margin:0.5rem 0; }
+    .feature-list {
+      list-style:none;
+      padding:0;
+    }
+    .feature-list li {
+      margin:0.5rem 0;
+      padding-left:1.2rem;
+      position:relative;
+    }
+    .feature-list li::before {
+      content:'✔';
+      position:absolute;
+      left:0;
+      color:#f05a28;
+    }
+    .btn {
+      display:inline-block;
+      margin-top:2rem;
+      padding:0.8rem 2rem;
+      background:#f05a28;
+      color:#111;
+      font-weight:bold;
+      text-decoration:none;
+      clip-path: polygon(5% 0%, 95% 0%, 100% 100%, 0% 100%);
+      transition:background .2s;
+    }
+    .btn:hover {
+      background:#e0491f;
+    }
+  </style>
+</head>
+<body>
+  <div class="panel">
+    <h1>Molossal V2</h1>
+    <p><em>Fake it till you make it.</em> The perfect mix of OP, Ghost and QOL.</p>
+
+    <h2>Features</h2>
+    <ul class="feature-list">
+      <li>No frame drops, no bullshit</li>
+      <li>Ghost Mode – undetectable cheats</li>
+      <li>Over Powered – game-breaking modules</li>
+      <li>VR‑style GUI overlay</li>
+      <li>Anti‑screen share, music player, community configs</li>
+    </ul>
+
+    <a href="#" class="btn">Get Started →</a>
+  </div>
+</body>
+</html>
