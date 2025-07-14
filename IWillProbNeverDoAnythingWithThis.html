@@ -95,7 +95,6 @@
   <div id="sidebar">
     <h2>pearl - The First Gorilla Tag Copy PCVR Website cheats.</h2>
     <ul>
-      <li><a href="#" onclick="showSection('home')">Home</a></li>
       <li><a href="#" onclick="showSection('movement')">Movement</a></li>
       <li><a href="#" onclick="showSection('visual')">Visual</a></li>
       <li><a href="#" onclick="showSection('player')">Player</a></li>
@@ -159,10 +158,12 @@
 <script>
   function showSection(section) {
     // Hide all sections
-    document.getElementById('home').style.display = 'none';
-    document.getElementById('cheats').style.display = 'none';
-    document.getElementById('settings').style.display = 'none';
-    document.getElementById('about').style.display = 'none';
+    document.getElementById('movement').style.display = 'none';
+    document.getElementById('visual').style.display = 'none';
+    document.getElementById('player').style.display = 'none';
+    document.getElementById('game').style.display = 'none';
+    document.getElementById('exploits').style.display = 'none';
+    document.getElementById('pcvrhtmlauthing').style.display = 'none';
 
     // Show the selected section
     document.getElementById(section).style.display = 'block';
